@@ -61,7 +61,7 @@ function runserver () {
 }
 
 function html () {
-  return gulp.src("./src/html/index.html")
+  return gulp.src("./src/html/**/*.html")
     .on("log", gutil.log)
     .pipe(gulp.dest("./dist"));
 }
