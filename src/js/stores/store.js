@@ -1,8 +1,8 @@
 import Reflux from "reflux";
 import immstruct from "immstruct";
-import Action from "../actions";
+import Actions from "../actions";
 
-var Store = Reflux.createStore({
+export default Reflux.createStore({
 
   data: immstruct({
     /* Add some immutable data for top-down rendering. */
@@ -13,6 +13,3 @@ var Store = Reflux.createStore({
   }
 
 });
-
-window.store = Store;
-export default Store;
