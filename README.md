@@ -13,7 +13,7 @@ $ gulp runserver
 Watch and compile Javascript, styles, and move everything to distribution folder:
 
 ```sh
-$ gulp runserver
+$ gulp watch
 ```
 
 Compile styles imported to `src/styles/index.scss` and move to distribution folder:

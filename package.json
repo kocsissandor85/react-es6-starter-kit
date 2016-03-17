@@ -5,7 +5,8 @@
   "author": "Sandor Kocsis <kocsissandor85@gmail.com>",
 
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "runserver": "gulp runserver"
   },
 
   "main": "index.js",
@@ -26,6 +27,7 @@
     "babel-preset-react": "6.5.0",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
+    "domready": "^1.0.8",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
@@ -34,14 +36,17 @@
     "gulp-watch": "^4.3.1",
     "gulp-webserver": "^0.9.1",
     "immstruct": "^2.0.0",
+    "immutable": "^3.7.6",
     "lodash": "^4.6.0",
+    "omniscient": "^4.1.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0",
     "reflux": "^0.3.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.0.7"
+    "watchify": "^3.0.7",
+    "when": "^3.7.7"
   },
 
   "devDependencies": {
